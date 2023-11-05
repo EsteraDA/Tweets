@@ -1,0 +1,33 @@
+/usr/bin/java  -classpath /home/hduser/ycsb-0.17.0/conf:/home/hduser/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/hduser/ycsb-0.17.0/lib/core-0.17.0.jar:/home/hduser/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/hduser/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/hduser/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/logback-classic-1.1.2.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/logback-core-1.1.2.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/mongo-java-driver-3.8.0.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/mongodb-async-driver-2.0.1.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/mongodb-binding-0.17.0.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/slf4j-api-1.7.25.jar:/home/hduser/ycsb-0.17.0/mongodb-binding/lib/snappy-java-1.1.7.1.jar site.ycsb.Client -t -db site.ycsb.db.MongoDbClient -s -P workloads/workloadb
+mongo client connection created with mongodb://localhost:27017/ycsb?w=1
+[OVERALL], RunTime(ms), 1709
+[OVERALL], Throughput(ops/sec), 585.1375073142189
+[TOTAL_GCS_Copy], Count, 3
+[TOTAL_GC_TIME_Copy], Time(ms), 35
+[TOTAL_GC_TIME_%_Copy], Time(%), 2.047981275599766
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 35
+[TOTAL_GC_TIME_%], Time(%), 2.047981275599766
+[READ], Operations, 949
+[READ], AverageLatency(us), 946.2971548998946
+[READ], MinLatency(us), 119
+[READ], MaxLatency(us), 112959
+[READ], 95thPercentileLatency(us), 3729
+[READ], 99thPercentileLatency(us), 6819
+[READ], Return=OK, 949
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2046.0
+[CLEANUP], MinLatency(us), 2046
+[CLEANUP], MaxLatency(us), 2046
+[CLEANUP], 95thPercentileLatency(us), 2046
+[CLEANUP], 99thPercentileLatency(us), 2046
+[UPDATE], Operations, 51
+[UPDATE], AverageLatency(us), 1538.3529411764705
+[UPDATE], MinLatency(us), 292
+[UPDATE], MaxLatency(us), 24719
+[UPDATE], 95thPercentileLatency(us), 4267
+[UPDATE], 99thPercentileLatency(us), 6951
+[UPDATE], Return=OK, 51
